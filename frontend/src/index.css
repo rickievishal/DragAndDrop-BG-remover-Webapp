@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --primary-color :#A5CD5A;
+  --primary-color-hover :  #D1EE9B;
+  --secondary-color : #D9D9D9;
+  --bg-primary-color : #A5CD5A;
+  --bg-secondary-color : #D9D9D9;
+  --bg-dark :#080808;
+  --border-color : #080808;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  background-color: var(--bg-primary-color);
+}
+.shadow{
+  box-shadow: 4px 4px 0px black;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
