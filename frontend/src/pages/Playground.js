@@ -78,8 +78,6 @@ const handleDrop = () => {
                          filter : "blur(200px)"    
                     }}
                     animate={{
-                        x: [-20, 20, -20, 20, -20],
-                        y: [-20, 20, -20, 20, -20],
                         filter : "blur(10px)"                       
                     }}
                     exit={{
@@ -92,9 +90,13 @@ const handleDrop = () => {
                     {/* <div className='w-[70px] h-[70px] bg-green-500 rounded-full'>
 
                     </div> */}
-                    <div className='w-full flex justify-center items-center'>
-                        <img src/>
-                    </div>
+                    <motion.div
+                    animate={{
+                        
+                    }}
+                    className='w-full flex justify-center items-center'>
+                        <img src="./dropit.png"/>
+                    </motion.div>
                 </motion.div>
                 </>
             )
